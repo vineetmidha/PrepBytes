@@ -1,39 +1,7 @@
 /*
 Marathon Feb-21
 
-Q.1 Cross that bridge
-
-Priya knows about a bridge of length N, some parts of it are colored in 'X' color and some in 'Y' color. 
-She can only cross the bridge if it is only colored in 'X' or 'Y'. 
-In one step she can change any segment of consecutive same colors. 
-After changing the color of a segment, the color 'X' becomes 'Y' and vice-versa.
-
-What is the minimum number of steps to color the bridge in one color?
-
-Input Format
-The first line contains an integer T denoting the number of test cases.
-The first line of each test case contains a string S of N characters, 
-consisting of either 'X' or 'Y' colors denoting the current state of the bridge.
-
-Output Format
-For each test case output the minimum number of steps to color the bridge in one color.
-Constraints
-1≤T≤10
-1≤N≤10^5
-
-Time limit
-1 second
-
-Example
-Input
-1
-XXYYXXX
-
-Output
-1
-
-Sample test case Explanation
-In one step we can color all the 'Y' colored segment into 'X'
+Q.1 Cross that bridge: https://mycode.prepbytes.com/contest/MARATHONFEB21/problems/CROSSB
 */
 
 #include <bits/stdc++.h>
