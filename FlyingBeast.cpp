@@ -1,3 +1,4 @@
+// UPSOLVED
 
 // https://mycode.prepbytes.com/contest/MARATHONFEB21/problems/FBEAST
 
@@ -49,31 +50,21 @@ A=[1,2,3,4,5] then its subarrays are:-
 The sum of difference of max(S)−min(S)=20.
 */
 
-// Pass the sample test cases but gave WA on submission
-
 #include <bits/stdc++.h>
 using namespace std;
 
-int solve(n){
-    int sum=0;
-    
-    for (int i=1; i<=n; i++){
-      sum += (i * (n-i));
-    }
-    
-    return sum;  
-}
+#define ll long long
 
 int main()
 {
-  int t;
+  ll t;
   cin >> t;
   
   while (t--){
-    int n;
+    ll n;
     cin >> n;
-
-    cout << solve(n) << endl;
+    
+    cout << (n*n*n - n) / 6 << endl;
   }
   
   return 0;
